@@ -597,7 +597,163 @@ p {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* MEDIA QUERIES*/
+
+
+ @media screen and (max-width: 480px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .image-container {
+    width: 100vw;
+    height: 50%;
+  }
+
+  .profile {
+    margin-top: 10%;
+  }
+
+  .about-container {
+    width: 100vw;
+    min-height: 70vh;
+  }
+
+  .quote-text {
+    font-size: 20px;
+    color: #ecf8f8;
+  }
+
+  .bold-text {
+    font-weight: 400;
+    font-size: 25px;
+  }
+
+  .btn {
+    margin-left: 5%;
+  }
+
+  #about-education h1 {
+    margin-top: 10%;
+  }
+  #about-education h2 {
+    font-size: 21px;
+  }
+
+  #about-education h3 {
+    font-size: 20px;
+  }
+
+  #about-education h4 {
+    font-size: 16px;
+  }
+  .image-slider {
+    min-height: 100vh;
+  }
+
+  .exposure-container {
+    min-height: 100vh;
+  }
+  .contact-form {
+    width: 400px;
+  }
+
+  .last ul {
+    margin-left: -8%;
+  }
+
+  .progressbar {
+    margin-top: 45px;
+  }
+
+  .progressbar li {
+    font-size: 10px;
+  }
+
+  .projects-description
+  {
+    width:500px;
+    padding:0px;
+    height:500px;
+  }
+
+  .projects-description ul li h2,p
+  {
+       font-size: 15px;
+  }
+  .projects{
+  padding: 0 50px;
+  }
+
+  .projects-description #text
+  {
+    display: none;
+  }
+  .list li #heading
+  {
+    font-family: 'Jost', sans-serif;
+  }
+
+  .list #desc {
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+  } 
+
+  .contact-form-text {
+  
+    width: 70%;
+   
+    margin: 16px 50px;
+    
+    padding: 20px 60px;
+    
+  }
+
+ 
+
+
+
+
+ }
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 480px) {
   .container {
@@ -658,7 +814,7 @@ p {
   }
 
   .last ul {
-    margin-left: -5%;
+    margin-left: -7.2%;
   }
 
   .progressbar {
@@ -673,7 +829,7 @@ p {
   {
     width:500px;
     padding:0px;
-    height:600px;
+    height:500px;
   }
 
   .projects-description ul li h2,p
@@ -698,8 +854,14 @@ p {
     font-size: 15px;
   }
 
-  
+
+
+
 }
+
+
+
+
 
 
 
@@ -748,15 +910,15 @@ p {
     margin-top: 6%;
   }
   #about-education h2 {
-    font-size: 35px;
+    font-size: 30px;
   }
 
   #about-education h3 {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   #about-education h4 {
-    font-size: 25px;
+    font-size: 22px;
   }
   .contact-form {
     width: 600px;
@@ -773,10 +935,16 @@ p {
   }
 
 
+  .projects{
+    padding: 0px 100px;
+    }
+
   .projects-description
   {
-    width:600px;
-    padding: 20px;;
+    width:500px;
+    padding: 0px;
+    height: 500px;
+    overflow:hidden;
   }
 
 
@@ -784,11 +952,10 @@ p {
 
   .projects-description ul li h2,p
   {
-       font-size: 20px;
+       font-size: 18px;
+      
   }
-  .projects{
-  padding: 0 100px;
-  }
+ 
 
 
   .projects-description #text
@@ -807,6 +974,7 @@ p {
     font-size: 18px;
   }
 
+ 
 }
 
 
@@ -919,7 +1087,8 @@ p {
   .projects-description
   {
     width:600px;
-    padding: 20px;;
+    padding: 20px;
+   
   }
 
 
@@ -942,6 +1111,10 @@ p {
     font-family: 'Satisfy', cursive;
     font-size: 20px;
   }
+
+
+
+  
  
  
 }
